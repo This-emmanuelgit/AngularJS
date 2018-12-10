@@ -1,0 +1,6 @@
+<div [ngClass]="{bordered: isBordered}" (click)="setBorder()">
+  drawing a box using ngClass by toggling border
+</div>
+.bordered {
+    border: 1px solid blue;
+}
